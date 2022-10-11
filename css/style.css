@@ -43,14 +43,38 @@ body {
     text-align: center;
   }
 }
+@media screen and (max-width: 320px) {
+  @keyframes animacao-imagem-logo {
+    from {
+      width: 10px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    to {
+      width: 200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+}
 .imagem-logo {
   animation-name: animacao-imagem-logo;
   animation-duration: 8s;
   animation-delay: 0s;
 }
+@media screen and (max-width: 320px) {
+  .imagem-logo {
+    width: 200px;
+  }
+}
 
 #menus {
   margin-top: -160px;
+}
+@media screen and (max-width: 320px) {
+  #menus {
+    margin-top: -130px;
+  }
 }
 
 .menu {
@@ -63,6 +87,11 @@ body {
   display: inline;
   font-size: 1.6em;
 }
+@media screen and (max-width: 320px) {
+  #menus ul li {
+    font-size: 1em;
+  }
+}
 
 #menus ul li a {
   text-decoration: none;
@@ -73,6 +102,11 @@ body {
   background-color: #fff;
   border-radius: 10px;
 }
+@media screen and (max-width: 320px) {
+  #menus ul li a {
+    padding: 5px;
+  }
+}
 
 #menus ul li a:hover {
   color: #fff;
@@ -80,6 +114,11 @@ body {
   font-size: 1.8em;
   border-radius: 20px;
   transition: 2s;
+}
+@media screen and (max-width: 320px) {
+  #menus ul li a:hover {
+    font-size: 1.3em;
+  }
 }
 
 /* fim dos estilos area cabeçalho */
@@ -102,12 +141,18 @@ body {
 #postagens {
   margin: 0 5% 0 5%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 #conteudos {
   width: 70%;
   margin-top: 50px;
+}
+@media screen and (max-width: 320px) {
+  #conteudos {
+    width: 90%;
+  }
 }
 
 #lateral {
@@ -118,6 +163,11 @@ body {
   gap: 20px;
   flex-direction: column;
 }
+@media screen and (max-width: 320px) {
+  #lateral {
+    width: 80%;
+  }
+}
 
 #artigos {
   display: grid;
@@ -125,6 +175,12 @@ body {
   gap: 15px;
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas: "item-1 item-2" "item-3 item-4";
+}
+@media screen and (max-width: 320px) {
+  #artigos {
+    grid-template-columns: 100%;
+    grid-template-areas: "item-1" "item-2" "item-3" "item-4";
+  }
 }
 
 .artigos-postados {
