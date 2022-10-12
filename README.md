@@ -9,13 +9,8 @@
 :desktop_computer: Este projeto foi feito com o que eu ainda sabia na época
 
 Por isso...
+<br><br><br>
 
-:hammer_and_wrench: O projeto está em atualização!
-
-:white_check_mark: O que ainda será feito:
-
-:green_circle: Uso de Flexbox e Grid para melhor organização dos itens.
-
-:green_circle: Responsividade
-
-:books: Projeto sendo feito e atualizado no Visual Studio Code usando HTML, CSS e Sass.
+Por isso, o projeto foi atualizado, incluindo o uso de Flexbox e Grid para melhor organização dos itens, além de ter sido feito a responsividade, que antes não havia.
+<br><br><br>
+:books: Projeto feito e atualizado no Visual Studio Code usando HTML, CSS e Sass.
